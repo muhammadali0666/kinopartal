@@ -1,0 +1,40 @@
+
+ul {
+  list-style-type: none;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.popular-item {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(47, 24, 222);
+  margin-top: 20px;
+  width: 210px;
+  height: 100vh auto;
+}
+li {
+  display: flex;
+  border-radius: 8px;
+  padding: 4px;
+  flex-direction: column;
+  border: 2px solid rgb(47, 24, 222);
+  margin-top: 20px;
+  width: 210px;
+  height: 100vh auto;
+}
+.poular-movi {
+  background: #000;
+  height: 100vh auto;
+}
+.navbar-link {
+  color: aliceblue;
+}
+.home-page {
+  background: #000;
+  height: 100vh;
+  padding: 40px;
+}
+.home-paragraph {
+  color: #fff;
+}
